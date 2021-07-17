@@ -17,6 +17,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "icons";
+    src: url("fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg'),
+        url("fonts/websymbols-regular-webfont.eot") format("eot"),
+        url("fonts/websymbols-regular-webfont.woff") format("woff"),
+        url("fonts/websymbols-regular-webfont.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*ESTILOS GENERALES*/
 *{
     padding: 0px;
@@ -50,6 +60,13 @@ a:visited{
 
 .orange{
     color: #d69d2a !important;
+}
+
+.icon{
+    font-family: "icons";
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
 }
 /*FORMULARIOS*/
 input[type="text"],
@@ -293,12 +310,6 @@ button:active{
     list-style: circle;
 }
 
-div .widget li > a{
-   
-   padding-right: 0px;
-   padding-left: 15px;
-   
-}
 /*FORMULARIOS ASIDEBAR*/
 #aside div label,
 #aside div input[type="text"],
